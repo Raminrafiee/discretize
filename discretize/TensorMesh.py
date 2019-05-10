@@ -323,6 +323,30 @@ class TensorMesh(
             return indxd, indxu, indyd, indyu, indzd, indzu
 
     @property
+    def nodalBoundaryInd(self):
+        """
+        Find indices of boundary nodes in each direction
+        """
+        if self.dim == 1:
+            indxd = (self.gridN == min(self.gridN))
+            indxu = (self.gridN == max(self.gridN))
+            return indxd, indxu
+        elif self.dim == 2:
+            indxd = (self.gridN[:, 0] == min(self.gridN[:, 0]))
+            indxu = (self.gridN[:, 0] == max(self.gridN[:, 0]))
+            indyd = (self.gridN[:, 1] == min(self.gridN[:, 1]))
+            indyu = (self.gridN[:, 1] == max(self.gridN[:, 1]))
+            return indxd, indxu, indyd, indyu
+        elif self.dim == 3:
+            indxd = (self.gridN[:, 0] == min(self.gridN[:, 0]))
+            indxu = (self.gridN[:, 0] == max(self.gridN[:, 0]))
+            indyd = (self.gridN[:, 1] == min(self.gridN[:, 1]))
+            indyu = (self.gridN[:, 1] == max(self.gridN[:, 1]))
+            indzd = (self.gridN[:, 2] == min(self.gridN[:, 2]))
+            indzu = (self.gridN[:, 2] == max(self.gridN[:, 2]))
+            return indxd, indxu, indyd, indyu, indzd, indzu
+
+    @property
     def cellBoundaryInd(self):
         """
         Find indices of boundary faces in each direction
