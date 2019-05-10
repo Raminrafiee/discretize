@@ -24,6 +24,7 @@ import matplotlib.pyplot as plt
 #    - **Curvilinear meshes** (:class:`discretize.CurviMesh`): also referred to as logically rectangular
 #
 # Examples for each mesh type are shown below.
+#
 
 ncx = 16  # number of cells in the x-direction
 ncy = 16  # number of cells in the y-direction
@@ -71,6 +72,7 @@ axes[2].set_title('CurvilinearMesh')
 #    - cell edges
 #
 # Below we show an example for a 2D tensor mesh.
+#
 
 hx = np.r_[3, 1, 1, 3]
 hy = np.r_[3, 2, 1, 1, 1, 1, 2, 3]
@@ -94,3 +96,4 @@ axes2[2].set_title('Cell faces')
 # Note that we define X-edges as being edges that lie parallel to the x-axis.
 # And we define X-faces as being faces whose normal lies parallel to the
 # axis. In 3D, the difference between edges and faces is more obvious.
+#

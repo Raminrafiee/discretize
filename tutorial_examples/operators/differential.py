@@ -19,6 +19,7 @@ Here we demonstrate:
     - How to construct and apply numerical differential operators
     - Mapping and dimensions
     - Applications for the transpose
+    
 
 """
 

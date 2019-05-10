@@ -18,11 +18,9 @@ discretization around certain points or within certain regions. When
 creating tree meshes, we must remember certain rules:
 
     - The number of base mesh cells in x, y and z must all be powers of 2
-    - We cannot refine the mesh to create cells smaller than those defining the
-    base mesh
-    - The range of cell sizes in the tree mesh depends on the number of base
-    mesh cells in x, y and z
-
+    - We cannot refine the mesh to create cells smaller than those defining the base mesh
+    - The range of cell sizes in the tree mesh depends on the number of base mesh cells in x, y and z
+    
 
 """
 
@@ -76,8 +74,7 @@ mesh.plotGrid(showIt=True)
 # ---------------------------------
 #
 # The widths of the base mesh cells do not need to be the same in x and y.
-# However the number of base mesh cells in x and y each needs to be a power of
-# 2.
+# However the number of base mesh cells in x and y each needs to be a power of 2.
 #
 # Here we show topography-based mesh refinement and refinement about a
 # set of points. We also show some aspect of customizing plots. We use the

@@ -1,5 +1,3 @@
-.. _tutorials_mesh:
-
 Mesh Generation
 ===============
 

@@ -13,6 +13,7 @@ demonstrate:
     - How to plot cylindrical meshes
     - How to extract properties from meshes
     - How to create cylindrical meshes to solve PDEs with rotational symmetry
+    
 
 """
 
@@ -37,8 +38,9 @@ import numpy as np
 # for the bottom of the vertical axis of symmetry of the mesh. Note that
 #
 #    1. *phi* is in radians
-#    2. The sum of values in the numpy array for *phi* cannot exceed
-#    :math:`2\pi`
+#    2. The sum of values in the numpy array for *phi* cannot exceed :math:`2\pi`
+#    
+#
 
 ncr = 10     # number of mesh cells in r
 ncp = 8      # number of mesh cells in phi
@@ -68,6 +70,7 @@ mesh.plotGrid()
 # to define a large domain while reducing the total number of mesh cells.
 # Here we demonstrate how to create cylindrical meshes that have padding cells.
 # We then show some properties that can be extracted from cylindrical meshes.
+#
 
 ncr = 10              # number of mesh cells in r
 ncp = 8               # number of mesh cells in phi
@@ -125,6 +128,7 @@ v = mesh.vol
 # with perfect rotational symmetry. Since the fields and fluxes are independent
 # of the phi position, there will be no need to discretize along the phi
 # direction.
+#
 
 ncr = 10              # number of mesh cells in r
 ncz = 15              # number of mesh cells in z
@@ -164,5 +168,3 @@ Ax.set_title('Cell Volumes')
 ##############################################################################
 # Notice that we do not plot the discretization in phi as it is irrelevant.
 #
-
-

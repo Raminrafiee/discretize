@@ -1,5 +1,3 @@
-.. _tutorials_solve:
-
 Solving PDEs
 ============
 

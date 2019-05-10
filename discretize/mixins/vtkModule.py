@@ -28,7 +28,7 @@ Python data structures and NumPy arrays::
 By default, the ``toVTK()`` method will return a ``vtki`` data object so that
 users can immediately start visualizing their data in 3D.
 
-See :ref:`vtki_demo_ref` for an example of the types of integrated
+See *vtki_demo_ref* (link needed) for an example of the types of integrated
 visualizations that are possible leveraging the link between discretize, vtki_,
 and PVGeo_:
 
@@ -51,7 +51,9 @@ and PVGeo_:
 
 .. _`Laguna del Maule Bouguer Gravity`: http://docs.simpeg.xyz/content/examples/04-grav/plot_laguna_del_maule_inversion.html#sphx-glr-content-examples-04-grav-plot-laguna-del-maule-inversion-py
 
+
 """
+
 import os
 import numpy as np
 
