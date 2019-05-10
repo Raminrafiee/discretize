@@ -307,6 +307,11 @@ texinfo_documents = [
     'Miscellaneous'),
 ]
 
+# ------------------------------------------------------------
+# nbsphinx (generate notebooks) options
+nbsphinx_timeout = 100
+
+# ------------------------------------------------------------
 # Sphinx Gallery
 sphinx_gallery_conf = {
     # path to your examples scripts
@@ -358,6 +363,8 @@ autodoc_member_order = 'bysource'
 nitpick_ignore = [
     ('py:class', 'discretize.CurvilinearMesh.Array'),
     ('py:class', 'discretize.mixins.vtkModule.vtkTensorRead'),
+    ('py:class', 'vtkXMLUnstructuredGridWriter'),
+    ('py:class', 'vtkXMLSstructuredGridWriter'),
     ('py:class', 'callable'),
     ('py:obj', 'vtk.vtkDataSet'),
 ]

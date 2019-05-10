@@ -211,26 +211,6 @@ Examples
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="This example is based on the example in the FiPy_ library. Please see their documentation for m...">
-
-.. only:: html
-
-    .. figure:: /demo_examples/images/thumb/sphx_glr_plot_cahn_hilliard_thumb.png
-
-        :ref:`sphx_glr_demo_examples_plot_cahn_hilliard.py`
-
-.. raw:: html
-
-    </div>
-
-
-.. toctree::
-   :hidden:
-
-   /demo_examples/plot_cahn_hilliard
-
-.. raw:: html
-
     <div class="sphx-glr-thumbcontainer" tooltip="The example demonstrates the `plot_3d_slicer`">
 
 .. only:: html
