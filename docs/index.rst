@@ -5,10 +5,10 @@
     :hidden:
     :caption: Getting Started
 
-    content/big_picture
-    content/installing
+    overview/big_picture
+    overview/installing
     demo_examples/index
-    content/additional_resources
+    overview/additional_resources
 
 .. toctree::
     :maxdepth: 2
@@ -31,5 +31,5 @@
     :hidden:
     :caption: Theory
 
-    content/finite_volume
-    content/inner_products
+    theory/finite_volume
+    theory/inner_products

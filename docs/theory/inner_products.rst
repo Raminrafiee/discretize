@@ -1,3 +1,5 @@
+.. _theory_InnerProducts:
+
 Inner Products
 **************
 

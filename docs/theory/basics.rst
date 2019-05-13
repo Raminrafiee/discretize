@@ -1,7 +1,11 @@
-.. _api_FiniteVolume:
+.. _theory_basics:
 
-Finite Volume
-*************
+Basics
+******
+
+The goal of the `discretize` package is to provide the building blocks for
+solving partial differential equations (PDEs) via numerical approximation.
+This is accomplished by discretizing the 
 
 Any numerical implementation requires the discretization of continuous
 functions into discrete approximations. These approximations are typically
